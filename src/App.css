@@ -1,0 +1,49 @@
+.app {
+  min-height: 100vh;
+  background: #1b2a4a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 2px;
+}
+
+.game-status {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  color: #ccc;
+}
+
+.game-status strong {
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.game-status button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1rem;
+  background: #3949ab;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.game-status button:hover {
+  background: #5c6bc0;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  gap: 16px;
+  justify-content: center;
+}
